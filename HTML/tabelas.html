@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Tabelas em HTML</title>
+</head>
+<body>
+	<table border="2">
+		<tr>
+			<th>Mês</th>
+			<th>Despesas</th>
+		</tr>
+		<tr>
+			<td>Março</td>
+			<td>R$500,00</td>
+		</tr>
+		<tr>
+			<td>Abril</td>
+			<td>R$130,00</td>
+		</tr>
+	
+	</table><br><br>
+
+	<table border="2">
+		<tr>
+			<th>Mês</th>
+			<th>Despesas</th>
+		</tr>
+		<tr>
+			<td>Março</td>
+			<td>R$500,00</td>
+		</tr>
+		<tr>
+			<td>Abril</td>
+			<td>R$130,00</td>
+		</tr>
+		<tr>
+			<td colspan="2">Soma: R$630,00</td>
+		</tr>
+	</table><br><br>
+
+
+
+	<table border="2">
+		<tr>
+			<th>Mês</th>
+			<th>Despesas</th>
+			<th>Guardei para o aniversário.</th>
+		</tr>
+		<tr>
+			<td>Março</td>
+			<td>R$500,00</td>
+			<td rowspan="2">R$80,00</td>
+		</tr>
+		<tr>
+			<td>Abril</td>
+			<td>R$130,00</td>
+		</tr>
+		
+	</table><br><br>
+
+
+
+
+	<table border="2">
+		<caption style="font-size: 20pt; color: #00FF00;"><b>Cadastro Principal</b></caption>
+		<tr bgcolor="#A9A9A9">
+			<th id="nome">Nome</th>
+			<th id="email">Email</th>
+			<th id="tel">Telefone</th>
+			<th id="end">Endereço</th>
+		</tr>
+		<tr bgcolor="#F4A460">
+			<td headers="nome">André Garcia Lopez</td>
+			<td headers="email">prof_andrea@hotmail.com</td>
+			<td headers="tel">41-3491-1303</td>
+			<td headers="end">Pç 19 de Janeiro, 1234.</td>
+		</tr>
+
+		<tr bgcolor="#BC8F8F">
+			<td headers="nome">Antonio José Gomes Alvarenga</td>
+			<td headers="email">antonioa@gmail.com</td>
+			<td headers="tel">42-9988-9138</td>
+			<td headers="end">Rua Cajueiro, 234 - Centro.</td>
+		</tr>
+
+		<tr bgcolor="#00BFFF">
+			<td headers="nome">Lenice Rodrigues Balandiuk</td>
+			<td headers="email">lenicebala@gmail.com</td>
+			<td headers="tel">42-99988-1188</td>
+			<td headers="end">PÇ Presidente Vargas, 2312 - Centro.</td>
+		</tr>
+	</table><br><br>
+
+
+
+	<table border="2">
+		<caption style="color:#FF0000"><b>Tabela com colunas e linhas</b></caption>
+		<tr bgcolor="#BC8F8F">
+			<th colspan="2">Colunas 1 e 2</th>
+		</tr>
+		<tr>
+			<td>linha 1, coluna 1</td>
+			<td>linha 1, coluna 2</td>
+		</tr>
+		<tr>
+			<td>linha 2, coluna 1</td>
+			<td>linha 2, coluna 2</td>
+		</tr>
+		<tr bgcolor="#FF00FF">
+			<th rowspan="3">3 linhas</th>
+			<td>uma linha</td>
+		</tr>
+		<tr>
+			<td>duas linhas</td>
+		</tr>
+		<tr>			
+			<td>três linhas</td>
+		</tr>
+	</table><br><br>
+
+
+
+	<table border="2" bgcolor="#FFFF00">
+		<caption style="color: #0000CD; font-size: 22pt"><b>Previsões sobre Animais!</b></caption>
+
+		<tr><th colspan="4" style="color: #9400D3; font-size: 15pt">Colunas 1 e 2</th></tr>
+
+		<tr bgcolor="#708090" style="color: #FFFFFF">
+			<th bgcolor="#00BFFF">Nome</th>
+			<th bgcolor="#7CFC00">Cabeças</th>
+			<th bgcolor="#DAA520">Previsão 2010</th>
+			<th bgcolor="#FF00FF">Previsão 2020</th>
+		</tr>
+		<tr bgcolor="#D3D3D3" align="center">
+			<td>Baleia</td>
+			<td>6000</td>
+			<td>4000</td>
+			<td>1500</td>
+		</tr>
+		<tr bgcolor="#D3D3D3" align="center">
+			<td>Urso Pardo</td>
+			<td>500</td>
+			<td rowspan="2" bgcolor="#FF0000" colspan="2">00</td>
+		</tr>
+		<tr align="center" bgcolor="#D3D3D3">
+			<td>Lince</td>
+			<td>10</td>
+		</tr>
+		<tr align="center" bgcolor="#E0FFFF">
+			<td>Tigre</td>
+			<td>300</td>
+			<td colspan="2" bgcolor="#FFDAB9">210</td>
+		</tr>
+	</table>
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{background-color: #FFFFF0;
+         margin-left: 8%;
+         margin-right: 10%;
+         border: 4px dashed #1E90FF;
+         padding: 10px 10px 10px 10px;
+         font-family: sans-serif;
+         }
+      h1{color: #1E90FF; 
+        text-shadow: 3px 3px 3px #0000FF; 
+        font-size: 35pt; 
+         -webkit-text-stroke-width: 1px; 
+         -webkit-text-stroke-color:#000;
+      }
+      h2{color: white; }
+      img{border: 4px solid #87CEEB;
+         border-radius: 10px;
+         object-fit: cover; 
+         transform: translateX(28%);
+         margin-right: 5px;
+         margin-top: 5px;
+         margin-bottom: 5px;
+      }
+      h2.borda1{background: #1E90FF;
+                color: #FFF;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                width: 76px;
+                height: 24px;
+                text-align: middle;
+                transform: rotate(15deg); 
+                margin-top: -35px;
+                margin-left: 92px;
+                }
+         h2.borda2{background: #1E90FF;
+                color: #FFF;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                width: 76px;
+                height: 24px;
+                text-align: middle;
+                transform: rotate(15deg); 
+                margin-top: -35px;
+                margin-left: 310px;
+                }
+         h2.borda3{background: #1E90FF;
+                color: #FFF;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                width: 76px;
+                height: 24px;
+                text-align: middle;
+                transform: rotate(15deg); 
+                margin-top: -35px;
+                margin-left: 526px;
+                }
+         h2.borda4{background: #1E90FF;
+                color: #FFF;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                width: 76px;
+                height: 24px;
+                text-align: middle;
+                transform: rotate(15deg); 
+                margin-top: -35px;
+                margin-left: 745px;
+                }
+         .rodapé{background-color:#1E90FF;  width: 1080px; height: 50px; margin-top: 46px; margin-bottom: 20px; font-size: 25px; text-align: center; color:#FFF;text-shadow: 2px 2px 2px #0000FF; 
+         }
